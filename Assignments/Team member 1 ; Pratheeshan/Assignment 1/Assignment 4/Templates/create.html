@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.4.2.3 (Windows)"/>
+	<meta name="created" content="2022-11-15T15:10:59.834000000"/>
+	<meta name="changed" content="2022-11-15T15:12:07.904000000"/>
+</head>
+<body lang="en-IN" dir="ltr"><p><br/>
+<br/>
+
+</p>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>{% extends 'base.html' %}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>{% block content %}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;center&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;h1&gt;{% block title
+			%} &lt;u&gt;Add a New Message&lt;/u&gt; {% endblock
+			%}&lt;/h1&gt;&lt;/center&gt;&lt;br&gt;&lt;br&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;form method=&quot;post&quot;
+			style=&quot;text-align: center;&quot;&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;label
+			for=&quot;title&quot;&gt;&lt;b&gt;TOPIC TITLE&lt;/b&gt;&lt;/label&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;br&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;input type=&quot;text&quot;
+			name=&quot;Message content&quot; placeholder=&quot;Topic title&quot;
+			value=&quot;{{ request.form['title'] }}&quot;&gt;&lt;/input&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;br&gt;&lt;br&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;label
+			for=&quot;content&quot;&gt;&lt;b&gt;TOPIC CONTENT&lt;/b&gt;&lt;/label&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;br&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;textarea
+			name=&quot;content&quot;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>placeholder=&quot;Title
+			content&quot;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>rows=&quot;6&quot;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>cols=&quot;25&quot;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&gt;{{
+			request.form['content'] }}&lt;/textarea&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;br&gt;&lt;br&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;button type=&quot;submit&quot;
+			class=&quot;button button1&quot;&gt;Submit&lt;/button&gt; &lt;a
+			href=&quot;{{ url_for('index') }}&quot; class=&quot;button
+			button1&quot;&gt;Home&lt;/a&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;/form&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<p>{% endblock %} 
+</p>
+</body>
+</html>
