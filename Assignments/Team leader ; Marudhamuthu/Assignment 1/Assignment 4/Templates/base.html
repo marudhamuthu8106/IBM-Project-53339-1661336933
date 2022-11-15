@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.4.2.3 (Windows)"/>
+	<meta name="created" content="2022-11-15T15:09:18.384000000"/>
+	<meta name="changed" content="2022-11-15T15:10:22.528000000"/>
+</head>
+<body lang="en-IN" dir="ltr"><p><br/>
+<br/>
+
+</p>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;!DOCTYPE html&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;html lang=&quot;en&quot;&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;head&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;title&gt;
+			FlaskApp&lt;/title&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;style&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>.message {</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>padding: 10px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>margin: 5px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>background-color: #656362</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>h1{</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>color: #1d78cd;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>nav a {</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>color: #1d78cd;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>font-size: 25px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>margin-left: 50px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>text-decoration: none;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>text-transform:
+			uppercase;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>.alert {</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>padding: 20px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>margin: 5px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>color: #977c30;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>background-color:
+			#dda1ae;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>.button {</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>background-color:#977c30;
+			/* red */</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>border: none;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>color: white;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>padding: 16px 32px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>text-align: center;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>text-decoration: none;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>display: inline-block;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>font-size: 16px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>margin: 4px 2px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>transition-duration:
+			0.4s;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>cursor: pointer;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>.button1 {</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>background-color: white; 
+			</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>color: black; 
+			</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>border-radius: 10px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>border: 2px solid
+			#036523; 
+			</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>.button1:hover {</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>background-color:
+			#00971e;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>color: rgb(47, 41, 51);</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>input[type=text],textarea
+			{</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>width: 50%;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>padding: 12px 20px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>margin: 8px 0;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>box-sizing: border-box;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>border: 2px solid;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>border-radius: 4px;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;/style&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;/head&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;body&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;nav&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;a href=&quot;#&quot;&gt;Home&lt;/a&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;a href=&quot;{{
+			url_for('index') }}&quot;&gt;FlaskApp&lt;/a&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;a href=&quot;{{
+			url_for('create') }}&quot;&gt;Create&lt;/a&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;/nav&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;hr&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;div class=&quot;content&quot;&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>{% for message in
+			get_flashed_messages() %}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;div class=&quot;alert&quot;&gt;{{
+			message }}&lt;/div&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>{% endfor %}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>{% block content %} {%
+			endblock %}</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;/div&gt;</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>&lt;/body&gt;</p>
+		</td>
+	</tr>
+</table>
+<p>&lt;/html&gt; 
+</p>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title></title>
+	<meta name="generator" content="LibreOffice 7.4.2.3 (Windows)"/>
+	<meta name="created" content="2022-11-15T15:06:29.967000000"/>
+	<meta name="changed" content="2022-11-15T15:07:44.727000000"/>
+</head>
+<body lang="en-IN" dir="ltr"><p><br/>
+<br/>
+
+</p>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>apiVersion: apps/v1</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>kind: Deployment</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>metadata:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>name: flask-app</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>spec:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>replicas: 3</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>selector:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>matchLabels:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>app: flask-app</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>template:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>metadata:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>labels:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>app: flask-app</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"></td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>spec:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>containers:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>- name: webpage</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>image: Assignment/flask</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>imagePullPolicy: Never</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>ports:</p>
+		</td>
+	</tr>
+</table>
+<table cellpadding="2" cellspacing="2">
+	<tr>
+		<td style="border: none; padding: 0cm"><p>- containerPort: 5000</p>
+		</td>
+	</tr>
+</table>
+<p>protocol: TCP 
+</p>
+</body>
+</html>
